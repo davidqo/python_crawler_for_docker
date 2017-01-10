@@ -1,8 +1,8 @@
 import requests
 
-url = 'http://www.kinopoisk.ru/'
+url = 'http://www.bash.im/'
 
 result = requests.get(url)
 
 with open('test.html', 'w') as output_file:
-  output_file.write(result.text.encode('cp1251'))
+  output_file.write(result.text.encode('utf-8'))

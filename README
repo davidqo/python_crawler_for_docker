@@ -1,0 +1,3 @@
+Build and execute.
+
+make prepare deps compile run
