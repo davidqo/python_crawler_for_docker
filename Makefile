@@ -26,7 +26,7 @@ clean-sdk:
 	rm -rf sdk
 
 run:
-	$(PYTHON) -i ./bin/crawler
+	PATH=./sdk:$(PATH) $(PYTHON) -i ./bin/crawler
 
 .PHONY: all prepare clean-sdk compile clean clean-all deps run
 
