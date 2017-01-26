@@ -1,3 +1,3 @@
 Build and execute.
 
-make prepare deps compile run
+sudo make deps && make compile run
