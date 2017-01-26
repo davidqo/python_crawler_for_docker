@@ -1,10 +1,14 @@
-#import requests
+import sys
+from PyQt4 import QtGui
 
-#url = 'http://www.bash.im/'
+app = QtGui.QApplication(sys.argv)
 
-#result = requests.get(url)
+widget = QtGui.QWidget()
+widget.resize(250, 150)
+widget.setWindowTitle('simple')
+widget.show()
 
-#with open('test.html', 'w') as output_file:
-#  output_file.write(result.text.encode('utf-8'))
+sys.exit(app.exec_())
 
-import PyQt4
+import sys
+from PyQt4 import QtGui

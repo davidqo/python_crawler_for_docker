@@ -1,3 +1,5 @@
 Build and execute.
 
-sudo make deps && make compile run
+sudo make deps && make compile
+
+Connect via ssh port 9922 and execute "make run".
